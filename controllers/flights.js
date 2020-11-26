@@ -17,7 +17,7 @@ function show(req, res) {
 };
 
 function newFlight(req, res) {
-
+    res.render('flights/new');
 };
 
 function index(req, res) {
