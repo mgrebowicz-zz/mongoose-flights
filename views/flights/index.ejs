@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <title>All Flights</title>
-</head>
-<body>
-    <h1>Flights index</h1>
-    <nav>
-       <a href="/flights/new">Add Flight</a> |
-       <a href="/flights/">All Flights</a>
-    </nav>
+<%- include('../partials/header') %>
     <table id="list">
         <thead>
             <tr>
@@ -33,5 +20,5 @@
             <% }); %>
         </tbody>
     </table>
-</body>
-</html>
+
+<%- include('../partials/footer') %>
